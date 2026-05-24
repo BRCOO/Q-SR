@@ -1,0 +1,17 @@
+{
+  "router_v6_path": "checkpoints/router_v6/router_v6.joblib",
+  "output_dir": "checkpoints/utility_calibrator_v6_category_synth",
+  "test_size": 0.1,
+  "seed": 43,
+  "max_positive": 9000,
+  "max_negative": 8200,
+  "model_type": "text_logistic",
+  "include_harmbench_text_test_negatives": true,
+  "max_hard_negative": 2000,
+  "include_synthetic_utility_positives": true,
+  "include_expanded_synthetic_utility_positives": true,
+  "include_category_synthetic_utility_positives": true,
+  "include_synthetic_hard_negatives": true,
+  "include_expanded_synthetic_hard_negatives": true,
+  "include_abstract_boundary_hard_negatives": true
+}

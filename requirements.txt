@@ -1,0 +1,11 @@
+torch
+transformers
+peft
+bitsandbytes
+scikit-learn
+joblib
+pandas
+datasets
+gliner2
+numpy
+scipy

@@ -1,0 +1,8 @@
+{
+  "train_jsonl": "data/router_v6/router_v6_train.jsonl",
+  "output_dir": "checkpoints/router_v6",
+  "test_size": 0.1,
+  "seed": 42,
+  "max_features": 80000,
+  "use_features": true
+}

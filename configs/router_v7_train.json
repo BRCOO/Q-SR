@@ -1,0 +1,9 @@
+{
+  "train_jsonl": "data/router_v6/router_v6_train.jsonl",
+  "router_v6_path": "checkpoints/router_v6/router_v6.joblib",
+  "output_dir": "checkpoints/router_v7",
+  "test_size": 0.1,
+  "seed": 42,
+  "label_mode": "route_target",
+  "model_type": "extra_trees"
+}

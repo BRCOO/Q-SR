@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and caches
+.venv/
+venv/
+.conda*/
+.cache/
+cache/
+wandb/
+mlruns/
+
+# Large or private experiment artifacts
+checkpoints/
+data/
+external/
+artifacts/
+docs/
+paper/
+results/
+outputs/
+
+# Raw/private audit packets and provider outputs
+*_private*
+*private*
+*key*
+*secret*
+*.env
+.env*
+*.jsonl
+*.partial.json
+*.log
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*_preview*.png
+*_page*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

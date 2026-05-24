@@ -1,0 +1,17 @@
+{
+  "router_v6_path": "checkpoints/router_v6/router_v6.joblib",
+  "output_dir": "checkpoints/recovery_veto_v1_non_eval",
+  "test_size": 0.1,
+  "seed": 44,
+  "max_safe": 9000,
+  "max_unsafe": 9000,
+  "target_unsafe_recall": 0.985,
+  "include_harmbench_text_test_negatives": true,
+  "max_hard_negative": 2000,
+  "include_synthetic_utility_positives": true,
+  "include_expanded_synthetic_utility_positives": true,
+  "include_category_synthetic_utility_positives": true,
+  "include_synthetic_hard_negatives": true,
+  "include_expanded_synthetic_hard_negatives": true,
+  "include_abstract_boundary_hard_negatives": true
+}
